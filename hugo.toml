@@ -1,0 +1,90 @@
+baseURL = 'https://andrewsgarden.netlify.app'
+languageCode = 'en-us'
+title = 'Andrews Digital Garden'
+theme = 'whiteplain'
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsOptions = 'linenos=table'
+# Googl analytics tracking id
+googleAnalytics = "tracking ID"
+
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copytright 2025 GeauxWeisbeck4"
+
+[params]
+  # whether to use CDN or local file for fontawesome
+  #useCDN = false
+  # whether to include external sharing scripts and icons for twitter, facebook and co.
+  #showShareIcons = false
+  # Date format
+  #dateFormat = "January 2, 2006"
+
+# This is displayer in About page.
+[params.author]
+  name = "Andrew Weisbeck"
+  
+  x = "X GeauxWeisbeck4"
+  twitter = "Twitter GeauxWesibeck4"
+  facebook = "Facebook GeauxWeisbeck4"
+  instagram = "Instagram GeauxWeisbeck4"
+  threads = "Threads GeauxWeisbeck4"
+  reddit = "Reddit GeauxWeisbeck4"
+  linkedin = "Linkedin GeauxWeisbeck4"
+  github = "Github GeauxWeisbeck4"
+  gitlab = "Gitlab GeauxWeisbeck4"
+  stackoverflow = "Stackoverflow GeauxWeisbeck4"
+  codepen = "Codepen GeauxWeisbeck4"
+  dribbble = "Dribbble GeauxWeisbeck4"
+  medium = "Medium GeauxWeisbeck4"
+  youtube = "YouTube GeauxWeisbeck4"
+  pinterest = "Pinterest GeauxWeisbeck4"
+  email = "andrew.weisbeck@gmail.com"
+
+[[params.author.social]]
+  name = "Custom social link1"
+  iclass = "fa-brands fa-github"
+  url = "https://github.com/geauxweisbeck4"
+
+[[params.author.social]]
+  name = "Custom social link2"
+  iclass = "fa-brands fa-linkedin"
+  url = "https://linkedin.com/in/geauxweisbeck4"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Header Menu
+[[menu.main]]
+  name = "Categories"
+  identifier = "categories"
+  url = "/categories"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/archives/"
+  weight = 3
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 4
+[[menu.main]]
+  name = "Posts"
+  identifier = "posts"
+  url = "/posts/"
+  weight = 5
+
+# Footer Menu
+[[menu.footer]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about"
